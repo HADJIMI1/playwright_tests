@@ -1,0 +1,52 @@
+{
+"Locator":{
+
+"url": "https://demoqa.com/",
+"element1": "//div[@class='card mt-4 top-card'][1]",
+"TextBox":"//span[text()='Text Box']",
+"name": "#userName",
+"mail": "#userEmail",
+"currentAddress":"#currentAddress",
+"permanentAddress":"#permanentAddress",
+"btn":"#submit",
+"Forms":"//*[contains(text(),'Forms')]",
+"practiceForm":"//*[contains(text(),'Practice Form')]"
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
