@@ -7,7 +7,7 @@ import { HomePage } from "../pom/homePage"
 
 let homePages:HomePage
 
-test("goToHomePage", async({page})=>{
+test("goToHomePage", {tag:['@homepage']} , async({page})=>{
 
 
 homePages=new HomePage(page)
