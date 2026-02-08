@@ -1,7 +1,7 @@
 name: Scheduled Runs
 on:
   schedule:
-    - cron: '30 16 * * *'
+    - cron: '20 15 * * *'
 jobs:
   test:
     timeout-minutes: 60
