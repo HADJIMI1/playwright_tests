@@ -10,7 +10,27 @@
 "permanentAddress":"#permanentAddress",
 "btn":"#submit",
 "Forms":"//*[contains(text(),'Forms')]",
-"practiceForm":"//*[contains(text(),'Practice Form')]"
+"practiceForm":"//*[contains(text(),'Practice Form')]",
+"fristeName":"#firstName",
+"lastName":"#lastName",
+"email":"#userEmail",
+"gendre":"label[for='gender-radio-2']",
+"userNumber":"#userNumber",
+"dateOfBrith":"//input[@id='dateOfBirthInput']",
+"month":"//select[@class='react-datepicker__month-select']",
+"day":"//select[@class='react-datepicker__year-select']",
+"years":"//div[contains(@class,'react-datepicker__day react-datepicker__day--010')]",
+"subject":"#subjectsInput",
+"hobies":"#hobbies-checkbox-2",
+"selectcity":"//input[@id='react-select-3-input']",
+"selectstate":"//input[@id='react-select-4-input']",
+"widghet":"//*[contains(text(),'Widgets')]",
+"accordian":"//*[contains(text(),'Accordian')]",
+"text_Accordian":"//div[@id='section2Heading']"
+
+
+
+
 
 
 

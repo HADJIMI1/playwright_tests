@@ -41,10 +41,14 @@ export class HomePage {
 
     }
 
+    
+
 
     async homePage() {
+        
         await this.page.goto(datas.Locator.url);
-
+        
+            
 
 
     }
