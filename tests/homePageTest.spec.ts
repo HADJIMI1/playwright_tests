@@ -1,7 +1,7 @@
 import test, { Locator } from "@playwright/test"
 import { HomePage } from "../pom/homePage"
 import { Forms } from "../pom/formsPage";
-import Widgets from "../pom/Widgets";
+import Widgets from "../pom/widgets";
 
 
 
