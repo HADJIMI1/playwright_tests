@@ -25,7 +25,6 @@ export default class AlertsFrameWindows {
 
 
 
-
     async alertsWindonw() {
         await this.alertsframewindows.click()
     }
