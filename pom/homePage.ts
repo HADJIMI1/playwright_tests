@@ -2,7 +2,7 @@ import { Locator, Page } from "@playwright/test";
 import datas from "../datas/locators.json";
 
 
-export class HomePage {
+export default class HomePage {
 
 
     private page: Page;
