@@ -36,6 +36,7 @@ export default defineConfig({
   },
 
   /* Configure projects for major browsers */
+  /**djshjdhjshd */
   projects: [
     {
       name: 'chromium',
