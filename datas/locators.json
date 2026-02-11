@@ -26,7 +26,20 @@
 "selectstate":"//input[@id='react-select-4-input']",
 "widghet":"//*[contains(text(),'Widgets')]",
 "accordian":"//*[contains(text(),'Accordian')]",
-"text_Accordian":"//div[@id='section2Heading']"
+"text_Accordian":"//div[@id='section2Heading']",
+"interactions":"//*[contains(text(),'Interactions')]",
+"Selectable":"//*[contains(text(),'Selectable')]",
+"listInter_select":"//li[@class='mt-2 list-group-item list-group-item-action'][3]",
+"alertsFrameWindows":"//*[contains(text(),'Alerts, Frame & Windows')]",
+"alertsBtn":"//span[contains(text(),'Alerts')]",
+"clickMePromo":"//button[@id='promtButton']",
+"modalDialogs":"//*[contains(text(),'Modal Dialogs')]",
+"showLargeModal":"//button[@id='showLargeModal']"
+
+
+
+
+
 
 
 
