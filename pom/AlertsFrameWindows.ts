@@ -11,17 +11,21 @@ export default class AlertsFrameWindows {
     private clickMePromo: Locator
     private modalDialog: Locator
     private showLargeModals: Locator
+    private largeMonidialTexts: Locator
 
     constructor(page: Page) {
         this.page = page
 
         this.alertsframewindows = this.page.locator(datas.Locator.alertsFrameWindows)
         this.alertsElementClick = this.page.locator(datas.Locator.alertsBtn)
-        this.clickMePromo=this.page.locator(datas.Locator.clickMePromo)
-        this.modalDialog=this.page.locator(datas.Locator.modalDialogs)
-        this.showLargeModals=this.page.locator(datas.Locator.showLargeModal)
+        this.clickMePromo = this.page.locator(datas.Locator.clickMePromo)
+        this.modalDialog = this.page.locator(datas.Locator.modalDialogs)
+        this.showLargeModals = this.page.locator(datas.Locator.showLargeModal)
+        this.largeMonidialTexts = this.page.locator(datas.Locator.largemonidialText)
+
 
     }
+
 
 
 
@@ -35,14 +39,22 @@ export default class AlertsFrameWindows {
     }
 
 
-    async clicksMePromo(){
-        await this.clickMePromo.click({force:true })
+    async clicksMePromo() {
+        await this.clickMePromo.click({ force: true })
 
         await this.modalDialog.click()
 
         await this.showLargeModals.click()
     }
 
+
+    async largeMonidialTextConsol() {
+
+        let textConsols: string | null
+        textConsols = await this.largeMonidialTexts.textContent()
+        await console.log("affiche moi ce message bien visible :" + textConsols)
+
+    }
 
 
 

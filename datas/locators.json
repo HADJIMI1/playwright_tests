@@ -34,7 +34,8 @@
 "alertsBtn":"//span[contains(text(),'Alerts')]",
 "clickMePromo":"//button[@id='promtButton']",
 "modalDialogs":"//*[contains(text(),'Modal Dialogs')]",
-"showLargeModal":"//button[@id='showLargeModal']"
+"showLargeModal":"//button[@id='showLargeModal']", 
+"largemonidialText":"//div[@class='modal-body']//p"
 
 
 
