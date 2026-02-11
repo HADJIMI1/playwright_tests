@@ -22,7 +22,7 @@ export default class AlertsFrameWindows {
         this.showLargeModals=this.page.locator(datas.Locator.showLargeModal)
 
     }
-
+/************** */
 
 
 
